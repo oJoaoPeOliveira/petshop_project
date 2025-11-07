@@ -10,7 +10,7 @@ class Animal(ABC):
         self._tipo_sanguineo = None
         
     def __str__(self):
-        return 'Oi'
+        return f'{self._nome} ({self._raca}) - {self._idade} anos'
     
     @property
     def responsavel(self):
