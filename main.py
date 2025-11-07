@@ -1,9 +1,16 @@
+from modelos.cachorro import Cachorro
 from modelos.cliente import Cliente
 
 def main():
-	cliente = Cliente('João Pedro', '00000000', '17/07/1999', '93000000', 'Luffy')
-	cliente = Cliente('João Pedro', '00000001', '17/07/1999', '93000000', 'Barry')
-	Cliente.listar_clientes()
+	cachorro1 = Cachorro('Luffy', 0.8, 'Yorkshire')
+	cachorro2 = Cachorro('Lu', 0.8, 'Yorkshire')
+	cachorro3 = Cachorro('Luf', 0.8, 'Yorkshire')
+	cliente = Cliente('João Pedro', 323200, 513232, 93293293)
+	
+	cliente.adicionar_pet(cachorro1)
+	cliente.adicionar_pet(cachorro2)
+	cliente.adicionar_pet(cachorro3)
+	print(cliente)
 	
 if __name__ == '__main__':
 	main()
