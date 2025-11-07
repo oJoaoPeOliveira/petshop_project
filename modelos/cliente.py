@@ -1,7 +1,5 @@
 class Cliente:
     
-    clientes = []
-
     def __init__(self, nome, cpf, telefone, cep):
         self._nome = nome
         self._cpf = cpf
