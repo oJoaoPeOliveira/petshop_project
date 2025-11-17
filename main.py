@@ -12,5 +12,7 @@ def main():
 	cliente.adicionar_pet(cachorro3)
 	print(cliente)
 	
+	print('-------------------')
+	
 if __name__ == '__main__':
 	main()
