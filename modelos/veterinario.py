@@ -1,4 +1,4 @@
-from funcionario import Funcionario
+from modelos.funcionario import Funcionario
 
 class Veterinario(Funcionario):
     def __init__(self, nome, cpf, telefone, email, salario, crmv):

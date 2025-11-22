@@ -30,8 +30,8 @@ class Consulta:
         self._diagnostico = None
         self._pago = False
         
-    def __str__():
-        pass
+    def __str__(self):
+        return f'{self._animal}'
     
     def finalizar_consulta(self, diagnostico: str):
         """
